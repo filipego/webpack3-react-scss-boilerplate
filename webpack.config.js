@@ -17,7 +17,7 @@ const DIST_FILE_CSS_BUNDLE_NAME = 'bundle.css';
 const DIST_FILE_CSS_BUNDLE = `style/${DIST_FILE_CSS_BUNDLE_NAME}`;
 // > Src
 const SRC_FOLDER = path.resolve(APP_FOLDER, './src');
-const SRC_FILE_JS_APP = path.resolve(SRC_FOLDER, './js/app');
+const SRC_FILE_JS_APP = path.resolve(SRC_FOLDER, './js/index');
 
 module.exports = {
 	// > JS Input / Output

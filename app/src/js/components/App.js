@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class FirstComponent extends Component {
+class App extends Component {
 	constructor(props) {
 		super(props);
 	}
 
 	render() {
 		return (
-			<h1>First Component</h1>
+			<h1>Hello from React App</h1>
 		);
 	}
 }
 
-export default FirstComponent;
+export default App;
